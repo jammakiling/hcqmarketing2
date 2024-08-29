@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access.hcqminventory.product,access_hcqminventory_product,hcqmarketing2.model_hcqminventory_product,base.group_user,1,1,1,1
+access.hcqminventory.productbrand,access_hcqminventory_productbrand,hcqmarketing2.model_hcqminventory_productbrand,base.group_user,1,1,1,1
+access.hcqminventory.productcategory,access_hcqminventory_productcategory,hcqmarketing2.model_hcqminventory_productcategory,base.group_user,1,1,1,1
+access.hcqminventory.supplier,access_hcqminventory_supplier,hcqmarketing2.model_hcqminventory_supplier,base.group_user,1,1,1,1
+access.hcqmsale.customer,access_hcqmsale_customer,hcqmarketing2.model_hcqmsale_customer,base.group_user,1,1,1,1
+access.hcqmemployees.employee,access_hcqmemployees_employee,hcqmarketing2.model_hcqmemployees_employee,base.group_user,1,1,1,1
+access.hcqmemployees.type,access_hcqmemployees_type,hcqmarketing2.model_hcqmemployees_type,base.group_user,1,1,1,1

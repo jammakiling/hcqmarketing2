@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+<record id="action_hcqm_customer" model="ir.actions.act_window">
+        <field name ="name">Customers</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hcqmsale.customer</field>
+        <field name="view_mode">tree,form</field>
+         <field name="context">{}</field>
+          <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                Input your first customer!
+                </p>
+        </field>
+</record>
+
+<menuitem
+    id="hcqm_customerlist_menu"
+    name="Customer List"
+    action="action_hcqm_customer"
+    parent="hcqm_sales_menu"
+    sequence="0" />
+</odoo>

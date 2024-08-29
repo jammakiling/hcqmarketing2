@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+<menuitem
+    id="hcqm_root_menu"
+    name=" HCQ Marketing System"
+    sequence="0" />
+<menuitem
+    id="hcqm_inventory_menu"
+    name=" Inventory"
+    parent="hcqm_root_menu"
+    sequence="0" />
+<menuitem
+    id="hcqm_supplier_menu"
+    name="Suppliers"
+    parent="hcqm_root_menu"
+    sequence="1" />
+<menuitem
+    id="hcqm_sales_menu"
+    name="Sales"
+    parent="hcqm_root_menu"
+    sequence="2" />
+<menuitem
+    id="hcqm_employee_menu"
+    name="Employees"
+    parent="hcqm_root_menu"
+    sequence="3" />
+
+    
+
+</odoo>
